@@ -8,7 +8,6 @@ package hoja2;
 //Roberto Chiroy 13027
 //Diego Jacobs 13160
 
-import java.util.Stack;
 
 /**
  *
