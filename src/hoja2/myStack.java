@@ -12,14 +12,14 @@ package hoja2;
  */
 public class myStack {
     private int sp;
-    private char[] stack;
+    private int[] stack;
     
     public myStack()
     {
         sp = -1;
-        stack = new char[100];
+        stack = new int[100];
     }
-    public void push(char car)
+    public void push(int car)
     {
         if (sp<100)
         {
@@ -27,9 +27,9 @@ public class myStack {
             stack[sp] = car;
         }
     }
-    public char pop()
+    public int pop()
     {
-        char car;
+        int car;
         car = stack[sp];
         sp--;
         return car;
@@ -38,7 +38,7 @@ public class myStack {
     {
         return sp==-1;
     }
-    public char top()
+    public int top()
     {
         return stack[sp];
     }
